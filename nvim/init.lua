@@ -3,12 +3,7 @@ require("base")
 require("lazy-bootstrap")
 require("lazy").setup({
     -- Colorschemes
-    {
-        "dustypomerleau/tol.nvim",
-        lazy = false, -- load the colorscheme at startup
-        priority = 1000, -- load colorscheme first
-        config = true,
-    },
+    { "folke/tokyonight.nvim" },
     ---------------------------------------
     {
         "nvim-telescope/telescope.nvim", tag = '0.1.4',
@@ -47,4 +42,4 @@ require("lazy").setup({
 ---------------------------------------
 
 
-vim.cmd[[colorscheme tol]]
+vim.cmd[[colorscheme tokyonight-night]]
