@@ -31,6 +31,7 @@ require("lazy").setup({
 	                       -- See `# Preview Mode` for more information
         }
     },
+    { "preservim/nerdcommenter" },
     -- LSP
     {"williamboman/mason.nvim"},
     {"williamboman/mason-lspconfig.nvim"},
