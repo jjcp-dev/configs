@@ -4,6 +4,7 @@ require("lazy-bootstrap")
 require("lazy").setup({
     -- Colorschemes
     { "folke/tokyonight.nvim" },
+    { "NLKNguyen/papercolor-theme" },
     ---------------------------------------
     {
         "nvim-telescope/telescope.nvim", tag = '0.1.4',
